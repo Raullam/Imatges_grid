@@ -1,0 +1,10 @@
+:root {
+    --imatges: 8;
+    --escala: 7;
+    --width: 16px;
+    --height: 9px;
+    --imgpetita: calc(var(--escala) * var(--width));
+    --imggran: calc(var(--imatges) * var(--imgpetita));
+    --alt_petita: calc(var(--escala) * var(--height));
+    --alt_gran: calc(var(--imatges) * var(--alt_petita));
+}
